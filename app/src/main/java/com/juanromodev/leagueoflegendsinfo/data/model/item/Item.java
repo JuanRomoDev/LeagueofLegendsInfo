@@ -14,17 +14,6 @@ public class Item {
 
     }
 
-    public Item(String name, String description, String plaintext, String[] from, String[] into,
-                Image image, Gold gold) {
-        this.name = name;
-        this.description = description;
-        this.plaintext = plaintext;
-        this.from = from;
-        this.into = into;
-        this.image = image;
-        this.gold = gold;
-    }
-
     public String getName() {
         return name;
     }

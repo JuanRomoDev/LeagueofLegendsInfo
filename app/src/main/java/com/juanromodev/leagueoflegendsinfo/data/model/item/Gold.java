@@ -11,13 +11,6 @@ public class Gold {
 
     }
 
-    public Gold(int base, int total, int sell, boolean purchasable) {
-        this.base = base;
-        this.total = total;
-        this.sell = sell;
-        this.purchasable = purchasable;
-    }
-
     public int getBase() {
         return base;
     }
